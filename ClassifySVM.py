@@ -10,7 +10,7 @@ def classify(features_train, labels_train):
 
 
     ### your code goes here!
-    clf = SVC(kernel="linear")
+    clf = SVC(gamma=1000.0)
     clf.fit(features_train, labels_train)
     clf.predict(features_train)
 
