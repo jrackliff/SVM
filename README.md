@@ -1,7 +1,8 @@
 # SVM
 Learning Machine Learning studying SVM
 
-![Alt text](test.png "Optional Title")
+Gamma 1
+![Alt text](gamma1.png "Optional Title")
 
 GAMMA 1000
-![Alt text](gammma1000.png "Optional Title")
+![Alt text](test.png "Optional Title")

@@ -10,7 +10,7 @@ def classify(features_train, labels_train):
 
 
     ### your code goes here!
-    clf = SVC(gamma=1000.0)
+    clf = SVC(gamma=1000)
 
     # features_train = features_train[:len(features_train) / 100]
     # labels_train = labels_train[:len(labels_train) / 100]
