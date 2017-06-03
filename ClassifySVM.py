@@ -10,10 +10,10 @@ def classify(features_train, labels_train):
 
 
     ### your code goes here!
-    clf = SVC(gamma=1000)
+    clf = SVC(kernel='rbf')
 
-    # features_train = features_train[:len(features_train) / 100]
-    # labels_train = labels_train[:len(labels_train) / 100]
+    features_train = features_train[:len(features_train) / 100]
+    labels_train = labels_train[:len(labels_train) / 100]
 
     clf.fit(features_train, labels_train)
     clf.predict(features_train)
